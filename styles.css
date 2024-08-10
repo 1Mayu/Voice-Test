@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#controls, #chatPage {
+    margin-bottom: 20px;
+}
+
+#friendLink {
+    width: 300px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+#chatPage {
+    display: none;
+}
+
+.blink {
+    animation: blinkAnimation 0.5s step-start infinite;
+}
+
+@keyframes blinkAnimation {
+    50% {
+        opacity: 0;
+    }
+}
